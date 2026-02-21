@@ -428,7 +428,7 @@ h1 {
 }
 
 .mini-terminal,
-.mini-terminal * {
+.mini-terminal *:not(i) {
     font-family: 'Courier New', Courier, monospace !important;
     font-weight: bold !important;
 }
