@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Decrypting profile data...",
         "Loading dependencies... React, Python, Solidity",
         "Connection Established.",
-        "Welcome, Daksh Parmar."
+        "Welcome, Guest."
     ];
 
     let lineIndex = 0;
@@ -174,7 +174,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         printToTerminal('Graphic Design, UI/UX, AI, Web3, React, Python, Solidity');
                         break;
                     case 'hello':
-                        printToTerminal("<pre style=\"color:#4CAF50; text-shadow:0 0 5px #4CAF50; font-size: 0.85rem; line-height: 1.2; overflow-x: auto;\">\n _    _      _ _         __  __       _         _ \n| |  | |    | | |       |  \\/  |     | |       | |\n| |__| | ___| | | ___   | \\  / | __ _| |_ ___  | |\n|  __  |/ _ \\ | |/ _ \\  | |\\/| |/ _` | __/ _ \\ | |\n| |  | |  __/ | | (_) | | |  | | (_| | ||  __/ |_|\n|_|  |_|\\___|_|_|\\___/  |_|  |_|\\__,_|\\__\\___| (_)\n</pre>", true);
+                        printToTerminal(`<pre style="color:#4CAF50; text-shadow:0 0 5px #4CAF50; font-size: 0.65rem; line-height: 1.2;">
+ _    _      _ _         __  __       _         _ 
+| |  | |    | | |       |  \\/  |     | |       | |
+| |__| | ___| | | ___   | \\  / | __ _| |_ ___  | |
+|  __  |/ _ \\ | |/ _ \\  | |\\/| |/ _\` | __/ _ \\ | |
+| |  | |  __/ | | (_) | | |  | | (_| | ||  __/ |_|
+|_|  |_|\\___|_|_|\\___/  |_|  |_|\\__,_|\\__\\___| (_)
+</pre>`, true);
                         break;
                     case 'clear':
                         termBody.innerHTML = '<div>Welcome to Daksh_OS. Type \'help\' to see available commands.</div>';
